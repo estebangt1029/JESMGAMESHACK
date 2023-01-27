@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    background-color: darkgray;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-right: 2%;
+    padding-left: 1%;
+    position: fixed;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    align-items: center;
+}
+.logomenu{
+    width: 30px;
+}
+
+aside{
+    width: 100vw;
+    min-height: 92.9vh;
+    background-color: black;
+}
+
+.logojuegos{
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.filtro{
+    display: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20PX;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+.search{
+    height: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 8PX;
+    padding-left: 8px;
+}
